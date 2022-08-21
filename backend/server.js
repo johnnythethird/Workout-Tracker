@@ -23,6 +23,10 @@ app.use((req, res, next) => {
 app.use('/api/workouts', workoutRoutes) // workout routes
 app.use('/api/user', userRoutes) // user routes
 
+app.get('/', (req, res) => {
+  res.send("APP IS RUNNING")
+})
+
 // db connection
 mongoose.connect(process.env.MONGO_URL)
   .then(() => {

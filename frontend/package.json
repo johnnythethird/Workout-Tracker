@@ -1,4 +1,5 @@
 {
+  "homepage": "http://johnnythethird.github.io/Workout-Tracker",
   "proxy": "http://localhost:4000",
   "name": "frontend",
   "version": "0.1.0",
@@ -8,6 +9,8 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "date-fns": "^2.29.1",
+    "firebase": "^9.9.3",
+    "jwt-decode": "^3.1.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
@@ -16,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
