@@ -4,7 +4,7 @@ This application allows users to create their own workout schedule.
 The user must create an account and then they'll be able to start creating their own workout schedule.
 
 # Tech Utilized
-MERN Stack (MongoDB, Express.js, React.js, Node.js), Google Authentication, Github Pages
+Javascript, HTML, CSS, MERN Stack (MongoDB, Express.js, React.js, Node.js), Google Authentication, Github Pages
 
 # Todo List
 1. Finish Google Authentication
